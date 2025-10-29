@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Card from "./components/card"
+import Counter from "./components/Counter"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -43,6 +44,8 @@ function App() {
 
       <Card  title="Card 1" description="This is a description for Card 1"/>
       <Card  title="Card 2" description="This is another description for Card 2"/>
+
+      <Counter />
     </>
   )
 }
