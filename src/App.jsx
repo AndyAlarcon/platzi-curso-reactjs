@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from "./components/card"
 import Counter from "./components/Counter"
+import ToggleButton from './components/ToggleButton'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -46,6 +47,9 @@ function App() {
       <Card  title="Card 2" description="This is another description for Card 2"/>
 
       <Counter />
+
+      <ToggleButton/>
+      
     </>
   )
 }
