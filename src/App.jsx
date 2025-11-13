@@ -5,6 +5,7 @@ import './App.css'
 import Card from "./components/card"
 import Counter from "./components/Counter"
 import ToggleButton from './components/ToggleButton'
+import NameForm from './components/NameForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -50,6 +51,7 @@ function App() {
 
       <ToggleButton/>
       
+      <NameForm/>
     </>
   )
 }
