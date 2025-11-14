@@ -6,6 +6,7 @@ import Card from "./components/card"
 import Counter from "./components/Counter"
 import ToggleButton from './components/ToggleButton'
 import NameForm from './components/NameForm'
+import CounterWithEffect from './components/CounterWithEffect'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -44,14 +45,17 @@ function App() {
         </ul>
       </div>
 
-      <Card  title="Card 1" description="This is a description for Card 1"/>
+      {/* <Card  title="Card 1" description="This is a description for Card 1"/>
       <Card  title="Card 2" description="This is another description for Card 2"/>
 
       <Counter />
 
       <ToggleButton/>
       
-      <NameForm/>
+      <NameForm/> */}
+
+      <CounterWithEffect />
+      
     </>
   )
 }
