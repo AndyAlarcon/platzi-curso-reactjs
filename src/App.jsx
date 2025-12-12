@@ -7,6 +7,7 @@ import Counter from "./components/Counter"
 import ToggleButton from './components/ToggleButton'
 import NameForm from './components/NameForm'
 import CounterWithEffect from './components/CounterWithEffect'
+import CardWithModule from './components/Card/CardWithModule'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,8 @@ function App() {
 
   return (
     <>
+    <CardWithModule/>
+    
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
